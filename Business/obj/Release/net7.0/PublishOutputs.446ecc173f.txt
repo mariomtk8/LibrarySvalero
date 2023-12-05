@@ -1,0 +1,8 @@
+C:\Users\palac\Desktop\LibrarySvalero\Business\bin\Release\net7.0\publish\LibrarySvalero.Business.dll
+C:\Users\palac\Desktop\LibrarySvalero\Business\bin\Release\net7.0\publish\LibrarySvalero.Business.deps.json
+C:\Users\palac\Desktop\LibrarySvalero\Business\bin\Release\net7.0\publish\LibrarySvalero.Business.pdb
+C:\Users\palac\Desktop\LibrarySvalero\Business\bin\Release\net7.0\publish\Newtonsoft.Json.dll
+C:\Users\palac\Desktop\LibrarySvalero\Business\bin\Release\net7.0\publish\LibrarySvalero.Data.dll
+C:\Users\palac\Desktop\LibrarySvalero\Business\bin\Release\net7.0\publish\LibrarySvalero.Models.dll
+C:\Users\palac\Desktop\LibrarySvalero\Business\bin\Release\net7.0\publish\LibrarySvalero.Data.pdb
+C:\Users\palac\Desktop\LibrarySvalero\Business\bin\Release\net7.0\publish\LibrarySvalero.Models.pdb

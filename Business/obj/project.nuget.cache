@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sd1K1ltW0ORBgiOfO8fOfsNTC38zxODFiy7R2mwFCXKLnJHuYu5oSj7QAo+kHU80pmhvdtr+QJWz2I4d/THPQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mario\\OneDrive\\Escritorio\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

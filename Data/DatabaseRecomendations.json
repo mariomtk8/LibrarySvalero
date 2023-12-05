@@ -1,0 +1,32 @@
+[
+  {
+    "Title": "capericot",
+    "Author": "eleven",
+    "Year": "1900",
+    "Money": 2000.0,
+    "clientName": "Daniel",
+    "list": [
+      "La sugerencia se ha realiazo el 30/11/2023 19:20:00"
+    ]
+  },
+  {
+    "Title": "caperucita",
+    "Author": "alex",
+    "Year": "1234",
+    "Money": 120.0,
+    "clientName": "Daniel",
+    "list": [
+      "La sugerencia se ha realiazo el 30/11/2023 20:57:16"
+    ]
+  },
+  {
+    "Title": "the wild girl",
+    "Author": "mario el feo",
+    "Year": "2023",
+    "Money": 18.0,
+    "clientName": "mario el feo",
+    "list": [
+      "La sugerencia se ha realiazo el 30/11/2023 21:02:25"
+    ]
+  }
+]

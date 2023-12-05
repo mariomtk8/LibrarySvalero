@@ -1,0 +1,130 @@
+[
+  {
+    "Title": "Love in the Time of Cholera",
+    "Author": "Gabriel García Márquez",
+    "Year": 1985,
+    "Money": 22.0,
+    "Gender": "Novela",
+    "Description": "Una historia de amor épica que explora las complejidades del tiempo y las emociones, escrita por el autor colombiano y ganador del Premio Nobel, Gabriel García Márquez."
+  },
+  {
+    "Title": "The Aleph",
+    "Author": "Jorge Luis Borges",
+    "Year": 1949,
+    "Money": 17.0,
+    "Gender": "Cuento",
+    "Description": "Una colección de cuentos que desafían la realidad y exploran conceptos filosóficos, escrita por el influyente autor argentino, Jorge Luis Borges."
+  },
+  {
+    "Title": "The Labyrinth of the Spirits",
+    "Author": "Carlos Ruiz Zafón",
+    "Year": 2016,
+    "Money": 29.0,
+    "Gender": "Novela",
+    "Description": "Parte de la serie 'El Cementerio de los Libros Olvidados', esta novela de misterio y aventura sigue a la inspectora Alicia Gris en la Barcelona de posguerra."
+  },
+  {
+    "Title": "2666",
+    "Author": "Roberto Bolaño",
+    "Year": 2004,
+    "Money": 11.0,
+    "Gender": "Novela",
+    "Description": "Una obra maestra de la literatura contemporánea que aborda temas como la violencia, la búsqueda y la identidad, escrita por el autor chileno Roberto Bolaño."
+  },
+  {
+    "Title": "The Bad Girl",
+    "Author": "Mario Vargas Llosa",
+    "Year": 2006,
+    "Money": 22.0,
+    "Gender": "Novela",
+    "Description": "Una historia de amor apasionada y tumultuosa que abarca décadas y continentes, escrita por el premiado autor peruano Mario Vargas Llosa."
+  },
+  {
+    "Title": "Blindness",
+    "Author": "Mario Perez",
+    "Year": 1995,
+    "Money": 38.0,
+    "Gender": "Novela",
+    "Description": "Una novela distópica que explora la sociedad después de un brote de ceguera súbita, escrita por el Nobel portugués José Saramago."
+  },
+  {
+    "Title": "The Sound of Things Falling",
+    "Author": "Juan Gabriel Vasquez",
+    "Year": 2011,
+    "Money": 44.0,
+    "Gender": "Novela",
+    "Description": "Explora las secuelas del narcoterrorismo en Colombia y la conexión entre dos personajes en momentos cruciales de la historia reciente del país, escrito por Juan Gabriel Vásquez."
+  },
+  {
+    "Title": "The Posthumous Memoirs of Bras Cubas",
+    "Author": "Machado de Assis",
+    "Year": 1881,
+    "Money": 17.0,
+    "Gender": "Novela",
+    "Description": "Considerada una obra precursora del realismo en América Latina, esta novela brasileña presenta las memorias postumas y satíricas de Brás Cubas."
+  },
+  {
+    "Title": "Aura",
+    "Author": "Carlos Fuentes",
+    "Year": 1962,
+    "Money": 45.0,
+    "Gender": "Novela",
+    "Description": "Una novela misteriosa que explora la relación entre un joven historiador y una enigmática mujer, escrita por el autor mexicano Carlos Fuentes."
+  },
+  {
+    "Title": "The Tunnel",
+    "Author": "Ernesto Sabato",
+    "Year": 1948,
+    "Money": 23.0,
+    "Gender": "Novela",
+    "Description": "Un relato psicológico oscuro que sigue la obsesión de un pintor por una mujer, explorando temas de existencialismo y paranoia, escrito por el autor argentino Ernesto Sabato."
+  },
+  {
+    "Title": "The Invention of Morel",
+    "Author": "Adolfo Bioy Casares",
+    "Year": 1940,
+    "Money": 31.0,
+    "Gender": "Novela",
+    "Description": "Una novela de ciencia ficción que explora la obsesión y la realidad, escrita por el autor argentino y colaborador cercano de Borges, Adolfo Bioy Casares."
+  },
+  {
+    "Title": "The Feast of the Goat",
+    "Author": "Mario Vargas Llosa",
+    "Year": 2000,
+    "Money": 12.0,
+    "Gender": "Novela",
+    "Description": "Basada en los últimos días del dictador dominicano Trujillo, esta novela de Mario Vargas Llosa examina el poder y la brutalidad política."
+  },
+  {
+    "Title": "A Hundred Million Years and a Day",
+    "Author": "Jean-Baptiste Andrea",
+    "Year": 2019,
+    "Money": 36.0,
+    "Gender": "Novela",
+    "Description": "Una novela que sigue la búsqueda de un paleontólogo amateur en los Alpes franceses y reflexiona sobre el tiempo y la naturaleza humana, escrita por Jean-Baptiste Andrea."
+  },
+  {
+    "Title": "The Shape of the Ruins",
+    "Author": "Juan Gabriel Vásquez",
+    "Year": 2015,
+    "Money": 63.0,
+    "Gender": "Novela",
+    "Description": "Una obra que mezcla realidad y ficción mientras explora los eventos históricos y las teorías de conspiración en Colombia, escrita por Juan Gabriel Vásquez."
+  },
+  {
+    "Title": "Pedro Paramo",
+    "Author": "Juan Rulfo",
+    "Year": 1955,
+    "Money": 13.0,
+    "Gender": "Novela",
+    "Description": "Considerada una obra maestra del realismo mágico, esta novela mexicana sigue la búsqueda del hijo de Pedro Páramo en un pueblo desolado."
+  },
+  {
+    "Title": "The Feast of the Goat",
+    "Author": "Mario Vargas Llosa",
+    "Year": 2000,
+    "Money": 19.0,
+    "Gender": "Novela",
+    "Description": "Basada en los últimos"
+  }
+]
