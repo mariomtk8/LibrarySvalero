@@ -19,7 +19,7 @@ namespace LibrarySvalero.Business
                 BooksModels book = RepositoryBooks.searchBooks(choice);
 
                 AccountModels user = userRepository.searchClient(userRepository.giveListUpdated(), name);
-                decimal clientMoney = user.clientMoney;
+                double clientMoney = user.clientMoney;
                 int bookMoney = Convert.ToInt32(book.Money);
                 if (clientMoney > bookMoney)
                 {

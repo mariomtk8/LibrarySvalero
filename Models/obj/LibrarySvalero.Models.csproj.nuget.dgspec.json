@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario\\OneDrive\\Escritorio\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario\\OneDrive\\Escritorio\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario\\OneDrive\\Escritorio\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
         "projectName": "LibrarySvalero.Models",
-        "projectPath": "C:\\Users\\mario\\OneDrive\\Escritorio\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
-        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario\\OneDrive\\Escritorio\\LibrarySvalero\\Models\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

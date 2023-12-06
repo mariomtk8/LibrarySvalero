@@ -1,3 +1,0 @@
-C:\Users\palac\Desktop\LibrarySvalero\Models\bin\Release\net7.0\publish\LibrarySvalero.Models.dll
-C:\Users\palac\Desktop\LibrarySvalero\Models\bin\Release\net7.0\publish\LibrarySvalero.Models.deps.json
-C:\Users\palac\Desktop\LibrarySvalero\Models\bin\Release\net7.0\publish\LibrarySvalero.Models.pdb

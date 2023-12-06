@@ -61,7 +61,7 @@ namespace LibrarySvalero.Business
             }
         }
 
-        public void makeDeposit(decimal value, string name)
+        public void makeDeposit(double value, string name)
         {
             try
             {
@@ -94,7 +94,7 @@ namespace LibrarySvalero.Business
             }
         }
 
-        public AccountModels makeObject(string name, string password, string adress, string phone, decimal money)
+        public AccountModels makeObject(string name, string password, string adress, string phone, double money)
         {
             try
             {

@@ -9,6 +9,6 @@ public class AccountModels
     public string password {get; set;}
     public string clientAdress {get; set;}
     public string clientPhoneNumber {get; set;}
-    public decimal clientMoney {get; set;}
+    public double clientMoney {get; set;}
     public List<string> register  {get; set;} = new List<string>();
 }

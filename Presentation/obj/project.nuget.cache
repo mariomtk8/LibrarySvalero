@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JZ20CnbtOZPnNFF2zVLiEaYeyvlGNJu8AKUaVtw67a9wLjyyrCRrCnVPjc0scBnNw+gCvQazQVSJXlaxfbCKbQ==",
+  "dgSpecHash": "HWrNEYI7T90DedyfE1bvO3j21WoDQKOtLTJ1IaHjfbGWngytoWvnk9/Gy9nbJwMl0HGlrF4XON98q0QPTFlw3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mario\\OneDrive\\Escritorio\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

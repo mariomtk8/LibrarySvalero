@@ -25,7 +25,7 @@ namespace LibrarySvalero.Business
             }
         }
 
-        public RecomendationsModels makeObject(string title, string author, string year, decimal money, string clientname)
+        public RecomendationsModels makeObject(string title, string author, string year, double money, string clientname)
         {
             try
             {

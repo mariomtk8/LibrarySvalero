@@ -1,6 +1,0 @@
-C:\Users\palac\Desktop\LibrarySvalero\Data\bin\Release\net7.0\publish\LibrarySvalero.Data.dll
-C:\Users\palac\Desktop\LibrarySvalero\Data\bin\Release\net7.0\publish\LibrarySvalero.Data.deps.json
-C:\Users\palac\Desktop\LibrarySvalero\Data\bin\Release\net7.0\publish\LibrarySvalero.Data.pdb
-C:\Users\palac\Desktop\LibrarySvalero\Data\bin\Release\net7.0\publish\Newtonsoft.Json.dll
-C:\Users\palac\Desktop\LibrarySvalero\Data\bin\Release\net7.0\publish\LibrarySvalero.Models.dll
-C:\Users\palac\Desktop\LibrarySvalero\Data\bin\Release\net7.0\publish\LibrarySvalero.Models.pdb
