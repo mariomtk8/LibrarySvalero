@@ -76,11 +76,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj",
       "projectName": "LibrarySvalero.Data",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -95,8 +95,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj"
             }
           }
         }

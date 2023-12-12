@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
         "projectName": "LibrarySvalero.Models",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

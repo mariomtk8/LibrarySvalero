@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj",
         "projectName": "LibrarySvalero.Business",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj"
               },
-              "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj",
         "projectName": "LibrarySvalero.Data",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -86,8 +86,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj"
               }
             }
           }
@@ -127,14 +127,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
         "projectName": "LibrarySvalero.Models",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -180,14 +180,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj",
         "projectName": "LibrarySvalero.Presentation",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Presentation\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -202,8 +202,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj"
               }
             }
           }
