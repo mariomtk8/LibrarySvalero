@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO; // Necesario para la entrada/salida de archivos
 using LibrarySvalero.Data;
 using LibrarySvalero.Models;
@@ -10,6 +8,7 @@ namespace LibrarySvalero.Business
     public class RecomendationsService
     {
         RecomendationsRepository recomRepo = new RecomendationsRepository();
+
 
         public bool ComprobationName(String name)
         {
@@ -25,16 +24,18 @@ namespace LibrarySvalero.Business
             }
         }
 
-        public RecomendationsModels makeObject(string title, string author, string year, double money, string clientname)
+        public RecomendationsModels makeObject(string title, string author, string year, double money, string clientname, string gender, string description)
         {
             try
             {
                 var details = new RecomendationsModels()
                 {
-                    Title = title,
-                    Author = author,
-                    Year = year,
-                    Money = money,
+                    title = title,
+                    author = author,
+                    gender = gender,
+                    description = description,
+                    year = year,
+                    money = money,
                     clientName = clientname,
                 };
 
@@ -43,8 +44,8 @@ namespace LibrarySvalero.Business
             catch (Exception ex)
             {
                 recomRepo.LogException(ex);
-                return null; 
+                return null;
             }
-        }   
+        }
     }
 }

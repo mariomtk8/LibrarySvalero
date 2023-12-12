@@ -1,0 +1,12 @@
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Presentation.exe
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Presentation.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Presentation.deps.json
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Presentation.runtimeconfig.json
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Presentation.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Business.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Data.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Models.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Business.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Data.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\Presentation\bin\Debug\net7.0\publish\LibrarySvalero.Models.pdb

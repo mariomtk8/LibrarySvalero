@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HWrNEYI7T90DedyfE1bvO3j21WoDQKOtLTJ1IaHjfbGWngytoWvnk9/Gy9nbJwMl0HGlrF4XON98q0QPTFlw3g==",
+  "dgSpecHash": "cpy09sn2y1JuUk5BsiY0KTPkge4BSWZgOnb/C9yNClTRaW6vxmucb7jEc/doq7NgZaCgn80nisEa9DwjkSsr9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Presentation\\LibrarySvalero.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

@@ -95,11 +95,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj",
       "projectName": "LibrarySvalero.Business",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Business\\LibrarySvalero.Business.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Business\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -114,11 +114,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj"
+            "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Data\\LibrarySvalero.Data.csproj"
             },
-            "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\Diseño_de_entorno_servidor\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj"
+            "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\LibrarySvalero\\Models\\LibrarySvalero.Models.csproj"
             }
           }
         }

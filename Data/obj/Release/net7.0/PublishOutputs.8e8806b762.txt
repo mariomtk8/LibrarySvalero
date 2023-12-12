@@ -1,0 +1,6 @@
+C:\Users\Usuario\Desktop\LibrarySvalero\publish\LibrarySvalero.Data.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\publish\LibrarySvalero.Data.deps.json
+C:\Users\Usuario\Desktop\LibrarySvalero\publish\LibrarySvalero.Data.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\publish\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\publish\LibrarySvalero.Models.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\publish\LibrarySvalero.Models.pdb

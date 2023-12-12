@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq.Expressions;
 using LibrarySvalero.Data;
 using LibrarySvalero.Models;
 
@@ -14,6 +13,7 @@ namespace LibrarySvalero.Business
         AccountModels userModel = new AccountModels();
 
         public bool stop = false;
+
 
         public void makeAccount(AccountModels userObject)
         {
@@ -57,7 +57,7 @@ namespace LibrarySvalero.Business
             }
             catch (Exception ex)
             {
-                userRepository.LogException(ex);
+                   userRepository.LogException(ex);
             }
         }
 
@@ -72,7 +72,7 @@ namespace LibrarySvalero.Business
             }
             catch (Exception ex)
             {
-                userRepository.LogException(ex);
+                   userRepository.LogException(ex);
             }
         }
 
@@ -80,16 +80,12 @@ namespace LibrarySvalero.Business
         {
             try
             {
-                AccountModels user = userRepository.VereficationAccount(userRepository.giveListUpdated(), name, password);
-                if(user == null){
-                    return false;
-                }else{
-                    return true;
-                }
+                AccountModels user = userRepository.verificationAccount(userRepository.giveListUpdated(), name, password);
+                return user != null;
             }
             catch (Exception ex)
             {
-                userRepository.LogException(ex);
+                   userRepository.LogException(ex);
                 return false;
             }
         }
@@ -117,6 +113,5 @@ namespace LibrarySvalero.Business
                 return null;
             }
         }
-
     }
 }

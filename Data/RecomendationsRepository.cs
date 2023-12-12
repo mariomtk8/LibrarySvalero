@@ -10,7 +10,7 @@ namespace LibrarySvalero.Data
         AccountModels userModels = new AccountModels();
         List<RecomendationsModels> listRecomendations = new List<RecomendationsModels>();
 
-        string ruthFile = "../Data/DatabaseRecomendations.json";
+        string pathFile = "../Data/DatabaseRecomendations.json";
 
         public void insertDetails(RecomendationsModels user)
         {
@@ -22,21 +22,22 @@ namespace LibrarySvalero.Data
         public void updateData()
         {
             string jsonClientesData = JsonConvert.SerializeObject(listRecomendations, Formatting.Indented);
-            File.WriteAllText(ruthFile, jsonClientesData);
+            File.WriteAllText(pathFile, jsonClientesData);
         }
 
         public List<RecomendationsModels> giveListUpdated()
         {
-            string archivo = File.ReadAllText(ruthFile);
+            string archivo = File.ReadAllText(pathFile);
             listRecomendations = JsonConvert.DeserializeObject<List<RecomendationsModels>>(archivo) ?? new List<RecomendationsModels>();
             return listRecomendations;
         }
 
 
 
+
         public void loadData()
         {
-            string archivo = File.ReadAllText(ruthFile);
+            string archivo = File.ReadAllText(pathFile);
             listRecomendations = JsonConvert.DeserializeObject<List<RecomendationsModels>>(archivo) ?? new List<RecomendationsModels>();
         }
 
@@ -44,12 +45,18 @@ namespace LibrarySvalero.Data
         public RecomendationsModels searchBook(List<RecomendationsModels> recomendations, string nameBook)
         {
 
-            return recomendations.Find(title => title.Title == nameBook);
+            return recomendations.Find(title => title.title == nameBook);
+        }
+       
+         public List<RecomendationsModels> getList()
+        {
+            loadData();
+            return listRecomendations;
         }
         public void LogException(Exception ex)
         {
-            string filePath = "../Data/Exception.json";
-            using (StreamWriter writer = new StreamWriter(filePath, true))
+        string path = "../Data/Exception.json";            
+        using (StreamWriter writer = new StreamWriter(path, true))
             {
                 writer.WriteLine("Fecha: " + DateTime.Now.ToString());
                 writer.WriteLine(ex.ToString());

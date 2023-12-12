@@ -2,7 +2,7 @@ using LibrarySvalero.Data;
 using LibrarySvalero.Models;
 using LibrarySvalero.Business;
 using System;
-using Newtonsoft.Json.Converters;
+using System.Reflection;
 
 namespace LibrarySvalero.Presentation
 {
@@ -35,13 +35,13 @@ namespace LibrarySvalero.Presentation
                 Console.WriteLine("4 Para ver excepciones producidas");
                 Console.WriteLine("5 Para entrar en el menú de administrador");
 
-                if (!int.TryParse(Console.ReadLine(), out number) || number < 1 || number > 4)
+                if (!int.TryParse(Console.ReadLine(), out number) || number < 1 || number > 5)
                 {
-                    Console.WriteLine("Lo siento, lo has introducido mal, tienes que introducir 1, 2, 3, 4");
+                    Console.WriteLine("Lo siento, lo has introducido mal, tienes que introducir 1, 2, 3, 4, 5");
                     Console.WriteLine("");
                 }
 
-            } while (number < 1 || number > 4);
+            } while (number < 1 || number > 5);
 
             switch (number)
             {
@@ -70,20 +70,21 @@ namespace LibrarySvalero.Presentation
                         }
 
                     }
+                    case 5: { administratorMenu(); break; }
             }
-            welcomeMenu();
+            
         }
 
         public void createAccountMenu()
         {
             Console.WriteLine("Has entrado en crear una cuenta");
-            Console.WriteLine("-----------------------------------------------------------");
+            Console.WriteLine("-------------------------------");
             Console.WriteLine("1 Para volver atrás");
             Console.WriteLine("2 Para crear la cuenta");
             string response = Console.ReadLine();
             int number;
 
-            while (!int.TryParse(response, out number) || number != 1 || number != 2)
+            while (!int.TryParse(response, out number) || number < 1 || number > 2)
             {
                 Console.WriteLine("Te has equivocado");
                 Console.WriteLine("1 Para volver atrás");
@@ -99,7 +100,7 @@ namespace LibrarySvalero.Presentation
             {
 
                 Console.WriteLine("Vamos a proceder a rellenar los datos para crear la cuenta");
-                Console.WriteLine("-----------------------------------------------------------");
+                Console.WriteLine("----------------------------------------------------------");
                 Console.WriteLine("Introduce el nombre y apellidos");
                 string clientName = Console.ReadLine();
                 Console.WriteLine("Introduce tu dirección");
@@ -238,7 +239,7 @@ namespace LibrarySvalero.Presentation
 
             int number;
 
-            while (!int.TryParse(response, out number) || number != 1 || number != 2)
+            while (!int.TryParse(response, out number) || number < 1 || number > 2)
             {
                 Console.WriteLine("Te has equivocado");
                 Console.WriteLine("1 Para hacer el ingreso");
@@ -276,7 +277,7 @@ namespace LibrarySvalero.Presentation
             string response = Console.ReadLine();
             int number;
 
-            while (!int.TryParse(response, out number) || number != 1 || number != 2)
+            while (!int.TryParse(response, out number) || number < 1 || number > 2)
             {
                 Console.WriteLine("Te has equivocado");
                 Console.WriteLine("1 Para continuar comprando el libro el libro");
@@ -350,12 +351,15 @@ namespace LibrarySvalero.Presentation
             string response = Console.ReadLine();
             int number;
 
-            while (!int.TryParse(response, out number) || number != 1 || number != 2)
+            while (!int.TryParse(response, out number) || number < 1 || number > 2)
             {
                 Console.WriteLine("Te has equivocado");
                 Console.WriteLine("1 Para volver atrás");
                 Console.WriteLine("2 Para poner el nombre y la contraseña");
                 response = Console.ReadLine();
+            }
+            if(number == 1){
+                welcomeMenu();
             }
 
             Console.WriteLine("Introduce tu nombre para poder entrar en la cuenta");
@@ -415,7 +419,7 @@ namespace LibrarySvalero.Presentation
 
             if (number == 1)
             {
-                userRepository.DeleteAccount(userModel.clientName);
+                userRepository.deleteAccount(userModel.clientName);
                 Console.WriteLine("La cuenta se ha eliminado");
             }
             if (number == 2)
@@ -450,16 +454,19 @@ namespace LibrarySvalero.Presentation
             string year = Console.ReadLine();
             Console.WriteLine("Cuánto cuesta el libro");
             double money;
+            Console.WriteLine("¿A qué género corresponde este libro?");
+            string gender = Console.ReadLine();
+            Console.WriteLine("Haz una breve descripción de el libro");
+            string description = Console.ReadLine();
             while (!double.TryParse(Console.ReadLine(), out money) || money < 0)
             {
                 Console.WriteLine("Has introducido un valor no válido. Introduce una cantidad válida:");
             }
-            recoRepository.insertDetails(recoService.makeObject(title, author, year, money, userModel.clientName));
+            recoRepository.insertDetails(recoService.makeObject(title, author, year, money, userModel.clientName, gender, description));
         }
-        public void administratorMenu()
+        public void administratorMenu()//parte nueva
         {
             Console.WriteLine("Bienvenido a la parte del administrador");
-            Console.WriteLine("---------------------------------------");
             Console.WriteLine("1 Para crear una cuenta de administrador");
             Console.WriteLine("2 Para entrar en la cuenta");
             Console.WriteLine("3 Para volver atrás");
@@ -477,7 +484,7 @@ namespace LibrarySvalero.Presentation
             switch (number)
             {
                 case 1: { CreateAdministratorMenu(); break; }
-                case 2: { manageAdministratorMenu(); break; }
+                case 2: { comprobatioAdministratorName(); break; }
                 case 3: { welcomeMenu(); break; }
             }
         }
@@ -522,7 +529,7 @@ namespace LibrarySvalero.Presentation
             string response = Console.ReadLine();
             int number;
 
-            while (!int.TryParse(response, out number) || number != 1 || number != 2)
+            while (!int.TryParse(response, out number) || number < 1 || number > 2)
             {
                 Console.WriteLine("Te has equivocado");
                 Console.WriteLine("1 Para volver atrás");
@@ -571,10 +578,275 @@ namespace LibrarySvalero.Presentation
 
         public void manageAdministratorMenu()
         {
+            Console.WriteLine("Bienvenido al menú del administrador");
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("1 Para añadir un libro");
+            Console.WriteLine("2 Para ver los  usuarios registrados");
+            Console.WriteLine("3 Para ver las recomendaciones hechas por los usuarios");
+            Console.WriteLine("4 Para borrar un libro");
+            Console.WriteLine("5 Para volver atrás");
+            Console.WriteLine("6 Para volver al menú principal");
+            string response = Console.ReadLine();
 
+            int number;
 
-
+            while (!int.TryParse(response, out number) || number < 1 || number > 6)
+            {
+                Console.WriteLine("Te has equivocado tienes que poner entre 1 y 6");
+                Console.WriteLine("1 Para añadir un libro");
+                Console.WriteLine("2 Para ver los  usuarios registrados");
+                Console.WriteLine("3 Para ver las recomendaciones hechas por los usuarios");
+                Console.WriteLine("4 Para borrar un libro");
+                Console.WriteLine("5 Para volver atrás");
+                Console.WriteLine("6 Para volver al menú principal");
+                response = Console.ReadLine();
+            }
+            switch (number)
+            {
+                case 1: { createBookMenu(); break; }
+                case 2: { seeUsersMenu(); break; }
+                case 3: { seeRecomendatiosMenu(); break; }
+                case 4: { deleteBookMenu(); break; }
+                case 5: { administratorMenu(); break; }
+                case 6: { welcomeMenu(); break; }
+            }
         }
 
+        public void createBookMenu()
+        {
+            Console.WriteLine("Bienvenido al menú de añadir un libro");
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("1 Para añadir un libro");
+            Console.WriteLine("2 Para volver atrás");
+            string response = Console.ReadLine();
+
+            int number;
+
+            while (!int.TryParse(response, out number) || number < 1 || number > 2)
+            {
+                Console.WriteLine("Te has equivocado");
+                Console.WriteLine("1 Para añadir un libro");
+                Console.WriteLine("2 Para volver atrás");
+                response = Console.ReadLine();
+            }
+
+            if (number == 1)
+            {
+                Console.WriteLine("Dime el nombre del libro");
+                string nameBook = Console.ReadLine();
+                Console.WriteLine("Dime el nombre del autor o autora del libro");
+                string nameAuthor = Console.ReadLine();
+                Console.WriteLine("Dime el año en el que libro fue publicado");
+                string yearBook = Console.ReadLine();
+                Console.WriteLine("Dime cuanto quieres que cueste el libro");
+                double moneyBook = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Dime el género del libro");
+                string genderBook = Console.ReadLine();
+                Console.WriteLine("Dime la descripción que quieres que tenga este libro");
+                string descriptionBook = Console.ReadLine();
+                adminService.createBook(nameBook, nameAuthor, yearBook, moneyBook, genderBook, descriptionBook);
+                Console.WriteLine("El libro se ha creado correctamente");
+                manageAdministratorMenu();
+            }
+            else
+            {
+                administratorMenu();
+            }
+        }
+
+        public void seeUsersMenu()
+        {
+            Console.WriteLine("Bienvenido a ver usuarios");
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("1 Para ver los usuarios");
+            Console.WriteLine("2 Para volver atrás");
+            string response = Console.ReadLine();
+
+            int number;
+
+            while (!int.TryParse(response, out number) || number < 1 || number > 2)
+            {
+                Console.WriteLine("Te has equivocado");
+                Console.WriteLine("1 Para ver los usuarios");
+                Console.WriteLine("2 Para volver atrás");
+                response = Console.ReadLine();
+            }
+
+            if (number == 1)
+            {
+                adminService.getInfoClients(userRepository.giveListUpdated());
+                Console.WriteLine("1 Para ver los datos de un usuario");
+                Console.WriteLine("2 Para volver al menú de admisnistrador");
+                response = Console.ReadLine();
+
+                while (!int.TryParse(response, out number) || number < 1 || number > 2)
+                {
+                    Console.WriteLine("Te has equivocado");
+                    Console.WriteLine("1 Para ver los usuarios");
+                    Console.WriteLine("2 Para volver atrás");
+                    response = Console.ReadLine();
+                }
+                if (number == 1)
+                {
+                    Console.WriteLine("Escribe el nombre del usuario que quieras saber más");
+                    string name = Console.ReadLine();
+
+                    AccountModels user = userRepository.searchClient(userRepository.giveListUpdated(), name);
+
+                    while (user == null)
+                    {
+                        Console.WriteLine("No tenemos ningún usuario con ese nombre, escribelo de nuevo");
+                        name = Console.ReadLine();
+                        user = userRepository.searchClient(userRepository.giveListUpdated(), name);
+                    }
+
+                    Console.WriteLine("Estos son los datos");
+                    Console.WriteLine("El nombre del usuario es " + user.clientName);
+                    Console.WriteLine("Su dirección es " + user.clientAdress);
+                    Console.WriteLine("Su número de teléfono es " + user.clientPhoneNumber);
+                    Console.WriteLine("Tiene " + user.clientMoney.ToString() + " euros");
+                    manageAdministratorMenu();
+                }
+            }
+            else
+            {
+                manageAdministratorMenu();
+            }
+        }
+
+        public void seeRecomendatiosMenu()
+        {
+            Console.WriteLine("Bienvenido a ver las recomendaciones que hacen los usuarios");
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("1 Para ver las recomendaciones");
+            Console.WriteLine("2 Para volver atrás");
+            string response = Console.ReadLine();
+
+            int number;
+
+            while (!int.TryParse(response, out number) || number < 1 || number > 2)
+            {
+                Console.WriteLine("Te has equivocado");
+                Console.WriteLine("1 Para ver las recomendaciones");
+                Console.WriteLine("2 Para volver atrás");
+                response = Console.ReadLine();
+            }
+
+            if (number == 1)
+            {
+                Console.WriteLine("Estas son las recomendaciones");
+                Console.WriteLine("-----------------------------");
+                adminService.getRecomendations(recoRepository.giveListUpdated());
+                Console.WriteLine("------------------------------------------");
+                Console.WriteLine("1 Para ver más detalles de alguna recomendación");
+                Console.WriteLine("2 Para volver atrás");
+                response = Console.ReadLine();
+                while (!int.TryParse(response, out number) || number < 1 || number > 2)
+                {
+                    Console.WriteLine("Te has equivocado");
+                    Console.WriteLine("1 Para ver más detalles de alguna recomendación");
+                    Console.WriteLine("2 Para volver atrás");
+                    response = Console.ReadLine();
+                }
+                if (number == 1)
+                {
+                    Console.WriteLine("Escribe la recomendación de la que quieras saber más");
+                    string name = Console.ReadLine();
+
+                    RecomendationsModels book = adminRepo.searchBooks(name, recoRepository.getList());
+
+                    while (book == null)
+                    {
+                        Console.WriteLine("No tenemos ninguna recomendación con ese nombre, escribelo de nuevo");
+                        name = Console.ReadLine();
+                        book = adminRepo.searchBooks(name, recoRepository.getList());
+                    }
+                    Console.WriteLine("Estos son los datos");
+                    Console.WriteLine("El nombre del libro es " + book.title);
+                    Console.WriteLine("Su autor es " + book.author);
+                    Console.WriteLine("El año en el que fue publicado es " + book.year);
+                    Console.WriteLine("El libro cuesta " + book.money.ToString() + " euros");
+                    Console.WriteLine("El género del libro es " + book.gender);
+                    Console.WriteLine("La descripción del libro es " + book.description);
+                    Console.WriteLine("El nombre del usuario que lo ha recomendado es " + book.clientName);
+                    Console.WriteLine(book.list);
+                    Console.WriteLine("-------------------------------------------------------------------");
+                    Console.WriteLine("1 Para crear un libro a partir de esta recomendación");
+                    Console.WriteLine("2 Para volver atrás");
+                    response = Console.ReadLine();
+
+                    while (!int.TryParse(response, out number) || number < 1 || number > 2)
+                    {
+                        Console.WriteLine("Te has equivocado");
+                        Console.WriteLine("1 Para crear un libro a partir de esta recomendación");
+                        Console.WriteLine("2 Para volver atrás");
+                        response = Console.ReadLine();
+                    }
+
+                    if (number == 1)
+                    {
+                        adminService.createBook(book.title, book.author, book.year, book.money, book.gender, book.description);
+                        Console.WriteLine("El libro se ha creado correctamente");
+                        manageAdministratorMenu();
+                    }
+                    else
+                    {
+                        manageAdministratorMenu();
+                    }
+                }
+                else
+                {
+                    manageAdministratorMenu();
+                }
+            }
+            else
+            {
+                manageAdministratorMenu();
+            }
+        }
+
+        public void deleteBookMenu()
+        {
+            Console.WriteLine("Bienvenido a la parte de borrar un libro");
+            Console.WriteLine("----------------------------------------");
+            Console.WriteLine("1 Para borrar un libro");
+            Console.WriteLine("2 Para volver atrás");
+            string response = Console.ReadLine();
+
+            int number;
+
+            while (!int.TryParse(response, out number) || number < 1 || number > 2)
+            {
+                Console.WriteLine("Te has equivocado");
+                Console.WriteLine("1 Para borrar un libro");
+                Console.WriteLine("2 Para volver atrás");
+                response = Console.ReadLine();
+            }
+
+            if (number == 1)
+            {
+                Console.WriteLine("Estos son nuestros libros");
+                Console.WriteLine("-------------------------");
+                booksBusiness.seeBooksbuy(booksRepository.getList());
+                
+                Console.WriteLine("Escribe el nombre del libro que quieras borrar");
+                string name = Console.ReadLine();
+                BooksModels book = booksRepository.searchBooks(name);
+                while (book == null)
+                {
+                    Console.WriteLine("No tenemos ningún libro con ese nombre, escribelo de nuevo");
+                    name = Console.ReadLine();
+                    book = booksRepository.searchBooks(name);
+                }
+                booksRepository.deleteBook(name);
+                Console.WriteLine("El libro se ha borrado correctamente");
+                manageAdministratorMenu();
+            }
+            else
+            {
+                manageAdministratorMenu();
+            }
+
+        }
     }
 }

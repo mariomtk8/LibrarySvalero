@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySvalero.Presentation", "Presentation\LibrarySvalero.Presentation.csproj", "{03FFE32F-7DE9-470E-94FE-2ECB3725E4E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySvalero.Business", "Business\LibrarySvalero.Business.csproj", "{C0126EA3-50EB-459F-B1F4-4F1ACEB14327}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySvalero.Business", "Business\LibrarySvalero.Business.csproj", "{37738429-EECA-4F89-80D7-B379C9B4CC5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySvalero.Data", "Data\LibrarySvalero.Data.csproj", "{D8B207F6-3BAF-4599-AA12-1E0EC60DF6A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySvalero.Models", "Models\LibrarySvalero.Models.csproj", "{4F68083F-3D13-4C45-93E0-34376F3845A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySvalero.Presentation", "Presentation\LibrarySvalero.Presentation.csproj", "{B017D67D-23E9-42BF-BA5A-E6D516A13BD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySvalero.Data", "Data\LibrarySvalero.Data.csproj", "{FF1829CF-108A-4CFF-BAD7-592DD6CD9A17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySvalero.Models", "Models\LibrarySvalero.Models.csproj", "{01B9F267-4C77-4A41-9339-02BCADC5389F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,21 +20,21 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{03FFE32F-7DE9-470E-94FE-2ECB3725E4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03FFE32F-7DE9-470E-94FE-2ECB3725E4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03FFE32F-7DE9-470E-94FE-2ECB3725E4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03FFE32F-7DE9-470E-94FE-2ECB3725E4E3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37738429-EECA-4F89-80D7-B379C9B4CC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37738429-EECA-4F89-80D7-B379C9B4CC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37738429-EECA-4F89-80D7-B379C9B4CC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37738429-EECA-4F89-80D7-B379C9B4CC5B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F68083F-3D13-4C45-93E0-34376F3845A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F68083F-3D13-4C45-93E0-34376F3845A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F68083F-3D13-4C45-93E0-34376F3845A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F68083F-3D13-4C45-93E0-34376F3845A3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF1829CF-108A-4CFF-BAD7-592DD6CD9A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF1829CF-108A-4CFF-BAD7-592DD6CD9A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF1829CF-108A-4CFF-BAD7-592DD6CD9A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF1829CF-108A-4CFF-BAD7-592DD6CD9A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0126EA3-50EB-459F-B1F4-4F1ACEB14327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0126EA3-50EB-459F-B1F4-4F1ACEB14327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0126EA3-50EB-459F-B1F4-4F1ACEB14327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0126EA3-50EB-459F-B1F4-4F1ACEB14327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B207F6-3BAF-4599-AA12-1E0EC60DF6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B207F6-3BAF-4599-AA12-1E0EC60DF6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B207F6-3BAF-4599-AA12-1E0EC60DF6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B207F6-3BAF-4599-AA12-1E0EC60DF6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B017D67D-23E9-42BF-BA5A-E6D516A13BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B017D67D-23E9-42BF-BA5A-E6D516A13BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B017D67D-23E9-42BF-BA5A-E6D516A13BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B017D67D-23E9-42BF-BA5A-E6D516A13BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B9F267-4C77-4A41-9339-02BCADC5389F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B9F267-4C77-4A41-9339-02BCADC5389F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B9F267-4C77-4A41-9339-02BCADC5389F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B9F267-4C77-4A41-9339-02BCADC5389F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,11 +1,34 @@
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.deps.json
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.dll
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.pdb
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.AssemblyInfoInputs.cache
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.AssemblyInfo.cs
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.dll
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\obj\Debug\net7.0\refint\LibrarySvalero.Models.dll
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.pdb
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Models\obj\Debug\net7.0\ref\LibrarySvalero.Models.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.deps.json
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.pdb
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.csproj.AssemblyReference.cache
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.AssemblyInfoInputs.cache
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.AssemblyInfo.cs
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.csproj.CoreCompileInputs.cache
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\refint\LibrarySvalero.Models.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.pdb
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\ref\LibrarySvalero.Models.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.deps.json
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\refint\LibrarySvalero.Models.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\Models\obj\Debug\net7.0\ref\LibrarySvalero.Models.dll
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.deps.json
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.dll
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\bin\Debug\net7.0\LibrarySvalero.Models.pdb
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.AssemblyInfoInputs.cache
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.AssemblyInfo.cs
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.csproj.CoreCompileInputs.cache
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.dll
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\obj\Debug\net7.0\refint\LibrarySvalero.Models.dll
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\obj\Debug\net7.0\LibrarySvalero.Models.pdb
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Models\obj\Debug\net7.0\ref\LibrarySvalero.Models.dll

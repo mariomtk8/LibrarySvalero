@@ -1,17 +1,51 @@
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.AssemblyReference.cache
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.AssemblyInfoInputs.cache
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.AssemblyInfo.cs
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.deps.json
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.dll
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.pdb
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Data.dll
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Models.dll
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Data.pdb
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Models.pdb
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.CopyComplete
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.dll
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\obj\Debug\net7.0\refint\LibrarySvalero.Business.dll
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.pdb
-C:\Users\Usuario\Desktop\Curso23-24-San-Valero\Diseño_de_entorno_servidor\LibrarySvalero\Business\obj\Debug\net7.0\ref\LibrarySvalero.Business.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.deps.json
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.pdb
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Data.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Data.pdb
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.AssemblyReference.cache
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.AssemblyInfoInputs.cache
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.AssemblyInfo.cs
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.CoreCompileInputs.cache
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.CopyComplete
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\refint\LibrarySvalero.Business.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.pdb
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\ref\LibrarySvalero.Business.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Models.dll
+C:\Users\S2-PC00\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Models.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.deps.json
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Data.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Models.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Data.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Models.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.CopyComplete
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\refint\LibrarySvalero.Business.dll
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.pdb
+C:\Users\Usuario\Desktop\LibrarySvalero\Business\obj\Debug\net7.0\ref\LibrarySvalero.Business.dll
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.deps.json
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.dll
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Business.pdb
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Data.dll
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Models.dll
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Data.pdb
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\bin\Debug\net7.0\LibrarySvalero.Models.pdb
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.AssemblyReference.cache
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.AssemblyInfoInputs.cache
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.AssemblyInfo.cs
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.CoreCompileInputs.cache
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.csproj.CopyComplete
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.dll
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\obj\Debug\net7.0\refint\LibrarySvalero.Business.dll
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\obj\Debug\net7.0\LibrarySvalero.Business.pdb
+D:\DATOS DE USUARIO\ESCRITORIO\LibrarySvalero\Business\obj\Debug\net7.0\ref\LibrarySvalero.Business.dll
